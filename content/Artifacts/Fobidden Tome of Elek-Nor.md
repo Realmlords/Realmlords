@@ -1,5 +1,4 @@
 ---
-title: "Forbidden Tome of Elek-Nor"
 ---
 Elek-Nor was a dark sorcerer of evil intent and mischievous demeanor, who decided to inflict his eponymous book on the realms with a canny spell. Now this book of terrible secrets roams through time, distributing unwholesome wisdom to those who find it.
 - shimmering rainbow light struggling to emerge from within the pages
