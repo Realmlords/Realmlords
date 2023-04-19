@@ -9,9 +9,6 @@
     {{partial "header.html" .}}
     <article>
       {{if .File.BaseFileName}}<h1>{{ .File.BaseFileName }}</h1>{{end}}
-      <p class="meta">
-        {{ i18n "last_updated" }} {{ partial "date-fmt.html" .}} 
-      </p>
       <ul class="tags">
           {{ range (.GetTerms "tags") }}
           <li><a href="{{ .Permalink }}">
