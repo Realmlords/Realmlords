@@ -1,6 +1,7 @@
 <!-- set data/config yaml file based on website language -->
 {{ $config := cond (eq $.Site.Language.Lang "en") "config" (printf "config.%s" $.Site.Language.Lang) }}
 {{ $data := index $.Site.Data $config }}
+{{ $GotTitle := "Hello" }}
 <head>
   <!-- Meta tags -->
   <meta charset="UTF-8" />
@@ -27,7 +28,7 @@
   {{ end }}
 
   <title>
-    {{ if .Title }}{{ .Title }}{{ else }}{{ $data.page_title | default $.Site.Data.config.page_title }}{{
+    {{ if .Title }}{{ $GotTitle }}{{ else }}{{ $data.page_title | default $.Site.Data.config.page_title }}{{
     end }}
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
