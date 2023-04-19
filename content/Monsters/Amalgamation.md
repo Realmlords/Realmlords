@@ -6,7 +6,7 @@ hp: 420
 ---
 
 ### The Amalgam
-A terrifying combination of man, beast, and material - the amalgam is all that remains of Harlan the Alchemist after inventing [[The Prime Acid]]. Lab benches protrude at angles from underneath writhing flesh, driven by a hatred of what he has become. 
+A terrifying combination of man, beast, and material - the amalgam is all that remains of Harlan the Alchemist after inventing [[Potions And Alchemy/The Prime Acid]]. Lab benches protrude at angles from underneath writhing flesh, driven by a hatred of what he has become. 
 
 Most horribly the Amalgam has at least three brains. One from Harlan, terrified at what he has become and demoralized by his failure to protect himself from his own invention. Another from a blink dog he had captured to experiment upon, the long years of which had turned its thoughts entirely to hatred of its captor. Alongside this the innumerable serpents and lab rats he kept have joined the mass.
 
