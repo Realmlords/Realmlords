@@ -3,7 +3,7 @@ The *subtle caltrop* is a spell of incredibly minor potency, only notable due to
 For those who know this spell tapping their foot twice and glancing at a target will cause a vicious caltrop to appear underfoot on their very next step. Each of the 4 tips is pointed slightly differently.
 | 1d4 | Point|
 | -----| ------|
-| 1 | Wickedly barbed like a manta ray spin |
+| 1 | Wickedly barbed like a manta ray spine |
 | 2 | Blunted, designed in such a way as to slip out from underfoot and trip the victim |
 | 3 | Weakened at the base to snap off in the wound |
 | 4 | Delicately inscribed with rude and phallic imagery |
