@@ -1,0 +1,1 @@
+This spell calls forth a group of laughing demon-faced beings, to cause mischief at the summoner's behest.

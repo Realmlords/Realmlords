@@ -1,0 +1,1 @@
+The *gilded arrows* are enchanted to slay a particular creature, their name engraved upon the length of the glistening shaft. Each archer in a company carries one such arrow, and only they know its intended target. In addition to facing down some of the most skilled long-range archers in all the realms, their foes must always ask themselves: is the next arrow destined to lay me?

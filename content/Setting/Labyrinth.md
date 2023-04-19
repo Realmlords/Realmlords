@@ -1,0 +1,1 @@
+Labyrinth, also known as the City on the Edge of Anywhere, is a city which travels between the realms.
