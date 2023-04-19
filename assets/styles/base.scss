@@ -1,7 +1,13 @@
 // Replace this with your own font imports!
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Inter:wght@400;600;700&family=Source+Sans+Pro:wght@400;600&display=swap');
+
+@font-face {
+font-family: "Universalis";
+src: url("../fonts/UniversalisADFStd-Regular.otf") format("opentype"),
+}
+
 :root {
-  --font-body: "Source Sans Pro";
+  --font-body: "Universalis";
   --font-header: "Inter";
   --font-mono: "Fira Code"
 }

@@ -21,4 +21,5 @@ Other than this the tome has little supernatural power, its main effect being th
 
 
 > [!info] Destroying the Tome
+> 
 > Any attempt to destroy the Tome through normal means would result in it flinging itself across time and space once again. However, if simply sending it far from the dominions that it is currently plaguing is not enough, one would have to find a way to bind it beforehand to prevent such flight. Such an effort would need to be exceptionally subtle, and succeed on the first try, lest the tome escape between the realms. 
