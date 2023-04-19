@@ -1,0 +1,5 @@
+The *porter spell* conjures a nearly invisible floating surface which is able to lift and carry objects on behalf of the caster. It hovers at approximately waist height and can move at a jogging pace, although limited by
+- the porter spell will refuse to work at night, simply disappearing
+- refuses to carry any living creature or other entity. Even if done accidentally the porter spell will drop everything held in protest.
+
+Although not really intelligent the spell is able to follow hand signs: following, staying in place, or going to somewhere pointed at. Additionally the caster can mark a location with a particular sigil, usually a single letter, and sign for the spell to go to this location. When it arrives it will attempt to scoop up whatever is there, or drop off what its currently holding, then return. So long as there is a clear path and the mark is within one hexleague, the spell should arrive in good time. 
