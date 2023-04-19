@@ -15,4 +15,5 @@ Most horribly the Amalgam has at least three brains. One from Harlan, terrified 
 - blood composed of various alchemical substances
 
 > [!info] Questing for a Cure?
+> 
 > Perhaps as the madness subsides some part of Harlan wishes to undo what has happened. This would would require a skill far beyond what he possesses, would it try despite these risks? Or would the Amalgam realize that it is a new being, and any attempt to dismember it would result in its death?
