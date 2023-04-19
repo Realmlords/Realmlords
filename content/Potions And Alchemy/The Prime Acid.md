@@ -1,7 +1,7 @@
 ---
 title: "The Prime Acid"
 ---
-- [[Identifying Potions|Properties]]: `superfluidic clear grayish flavorless liquid`
+- [[Systems/Identifying Potions|Properties]]: `superfluidic clear grayish flavorless liquid`
 
 The Prime Acid, known also as *oil of blending* is a thin superfluidic liquid that does far more than eat away base substance as other acids do. The strongest of acids dissolves the very notion of individuality itself, the fundamental distinction between objects. 
 
