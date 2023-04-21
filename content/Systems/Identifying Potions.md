@@ -13,3 +13,7 @@ For example a typical healing potion is a `heavy viscid opaque pink liquid` whic
 
 chart
 hash rules
+
+```dataview
+list from #potion 
+```
