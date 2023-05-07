@@ -24,7 +24,7 @@ Misfire: Roll 1d4: (1) Re-roll the spell check, conjuring the appropriate number
 |27 + | 1d6! cackling demons are summoned for 12 turns. On a roll of a 6 another 1d6 is rolled and that many more demons appear as well. |
 
 
-#### Conjure Cackling Demons #ArsMagica
+#### Conjure Cackling Demons #Ars
 ReVim 30
 R: Touch, D: Conc, T: Group
 The caster reaches out and summons a group of six [[Cackling Demon#Cackling Demon ArsMagica|cackling demons]] which remain for as long as the caster concentrates. If the demons have good reason to believe the caster means ill, based on their reputation, magic resistance need not be overcome. However, if this spell does not overcome their magic resistance the resulting demons are under no compulsion to follow the caster's orders.
