@@ -2,7 +2,7 @@ Friendly Dominion
 - +1 morale
 - affect on prophet stats
 
-Scales
+# Scales
 - law vs chaos
 - luck vs misfortune - bonus events, helps checks, nat 1s do something bad
 - heat vs cold

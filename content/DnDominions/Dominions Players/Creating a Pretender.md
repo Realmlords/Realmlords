@@ -11,9 +11,19 @@ With your group decide
 - create their Blessing
 
 ## Scales
+Scales are opposing forces of the universe which your pretender seeks to rebalance in their image. Wherever your pretender spreads their dominion the laws of the universe shift towards their true nature. See [[DnDominions/Dominions Players/Dominion and Scales|Dominion and Scales]] for their exact effects.
+
+Scales come in positive and negative sides, allocate between -3 to +3 to each scale, for a total of 4 points. The exception to this is Heat vs Cold, both of which cost points to increase. 
+- Heat vs Cold - the turning of the seasons as summer opposes winter
+- Fortune vs Misfortune - how the Fates pluck the strings of mortals
+- Growth vs Death - vibrancy and life opposed by decay
+- Order vs Chaos - the oldest battle between Law and Chaos
+- Industry vs Sloth - innovation and drive against a stagnating cosmos
+
+For example a pretender might have Cold (2), Misfortune (-1), Order (2), and Growth (1) for a total of 4 points spent.
 
 ## Domains
-Pretenders have secret knowledge concerning the operation of the universe, yet this knowledge is incomplete prior to their ascension. Allocate 6 points between the [[DnDominions/Dominions Players/Paths of Magic]] which determine the domains your pretender presides over. This determines special magic their priests have access to, grants you points for blessings, and makes accessing rituals of that domain easier for mages in their service.
+Pretenders have secret knowledge concerning the operation of the universe, yet this knowledge is incomplete prior to their ascension. Allocate 6 points between the [[DnDominions/Dominions Players/Paths of Magic|Paths of Magic]] which determine the domains your pretender presides over. This determines special magic their priests have access to, grants you points for blessings, and makes accessing rituals of that domain easier for mages in their service.
 
 The paths are
 - Fire

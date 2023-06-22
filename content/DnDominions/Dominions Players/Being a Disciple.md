@@ -1,36 +1,40 @@
-
 ## Character Creation
 You are a devoted follower of a [[DnDominions/Dominions Players/Creating a Pretender|pretender]], having heard their whisperings at the end of the Age of Calamity. Now you carry their banner to the corners of the realm, hoping to claim Thrones of Ascension.
 
 When creating a character consider the following
 - no traits
-- max HP at 1st level, roll hit die for future levels
-- see the alternate [[DnDominions/Dominions Players/Skills|skill]] rules
+- max HP at 1st class level, roll hit die for future levels and any racial hit die
+- see the alternate [[DnDominions/Dominions Players/Systems/Skills|skill]] rules
 - multiclassing is not permitted for magic-users or priests
+- the importance of [[DnDominions/Dominions Players/Systems/On War#Leadership|leadership]]
 
-To create a character you will have 7 points to spend between. These points will determine what options you have access to, with more powerful races or classes costing more points.
+To create a character you will have 7 points to spend. These points will determine what options you have access to, with more powerful races or classes costing more points.
 - choosing a race
 - starting class and level
 - afflictions and attributes
 - generating ability scores
 
 ### Ancestry
-Choose one of the races based on cost, see [[DnDominions/Dominions Players/Races]] for full stats.
+Choose one of the races based on cost, see [[DnDominions/Dominions Players/Races|Races]] for full stats. This will determine your character's place of origin as well, allowing for easier recruitment of troops from your homeland.
+
 | Cost | Race Options |
 | ----- | --------------- |
 | 0      | Human |
 
 ### Class and Level
-Pick a class based on the costs listed below. If you wish to multiclass then you will need to pay the cost for each class you intend to take. Note that spell lists and magic in general are [[DnDominions/Dominions Players/Paths of Magic|very different]].
+Pick a class based on the costs listed below. If you wish to multiclass then you will need to pay the cost for each class you intend to take. Note that spell lists and magic in general are changed.
 
 | Cost | Class Options |
 | ----- | --------------- |
-| 0 | Barbarian, [[DnDominions/Dominions Players/Classes/Class Houserules#Fighter\|Fighter]]\*, Monk, Ranger, Rogue, Cavalier, Brawler, Hunter, Slayer, Samurai |
+| 0 | Barbarian, [[DnDominions/Dominions Players/Classes/Class Houserules#Fighter\|Fighter]]\*, Monk, [[DnDominions/Dominions Players/Classes/Class Houserules#Ranger\|Ranger]]\*, Rogue, Cavalier, Brawler, Hunter, Slayer, Samurai |
 | 1 | [[DnDominions/Dominions Players/Classes/Class Houserules#Paladin\|Paladin]]\*, Swashbuckler, Shifter, [[DnDominions/Dominions Players/Classes/Class Houserules#Bard\|Bard]]\*, Ninja |
-| 2 | Priest, Alchemist\*, Bloodrager\*, Kineticist |
-| 3 | Magic-User |
+| 2 | [[DnDominions/Dominions Players/Classes/Priest\|Priest]]†, [[DnDominions/Dominions Players/Classes/Class Houserules#Alchemist\|Alchemist]]\*, Kineticist |
+| 3 | [[DnDominions/Dominions Players/Classes/Magic-User\|Magic-User]]† |
 
-Additionally your starting level is determined by points spent. Progression after this is determined by [[DnDominions/Dominions Players/Advancement#Experience Points|experience points]].
+\* See linked houserules
+† New class
+
+Your starting level is determined by points spent. Progression after this is determined by experience points.
 
 | Cost | Starting Level |
 | ----- | --------------- |
@@ -43,6 +47,8 @@ Age
 global enchantment
 extra leadership
 immortal
+priest
+mage
 
 ### Ability Scores
 Any remaining points are used to determine what ability scores you start with.
