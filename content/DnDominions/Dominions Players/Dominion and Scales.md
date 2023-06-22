@@ -8,6 +8,12 @@ Friendly Dominion
 - heat vs cold
 - growth vs death
 
+### Heat vs Cold
+> [!Scale] Heat 3
+> - Fire damage increased by 3
+
+
+
 ### Luck vs Misfortune
 - 3 : roll three times on random events and choose best
 - 2
@@ -19,4 +25,4 @@ Misfortune 1
 
 Misfortune 2
 - Rolls of natural 1 result in a fumble
-- 
+

@@ -28,10 +28,13 @@ To cast a spell you must both know the spell (typically by having the appropriat
 
 - know spell and have minimum Path rating
 - suffer fatigue based on spell (reduced by high Path rating)
+- accrue additional fatigue for wearing armor #TODO
 
 Taking damage while casting a spell requires a Concentration check DC = 10 + damage dealt + spell tier + highest path requirement.
 
 While casting you may spend appropriate gems (limited by your Path rating) to increase your effective Path rating for that particular spell.
+
+Fatigue by 1 / (amount your path exceeds required level).
 
 ### Countermagic
 
@@ -42,6 +45,7 @@ Knowledge of a path itself confers certain bonuses. each point in a path grants
 | Path | Bonus per Level |
 |------|-------------------|
 | Fire | Fire resistance 5 |
+#TODO 
 
 ## Research
 
@@ -60,4 +64,4 @@ Although some magic may be acquired from rare tablets or individual spells hidde
 |9|2400|5195|
 
 ### Starting Spells
-All being capable of magic have some intrinsic access to basic spells, knowledge of which is innate. These are the tier 0 spells of each school.
+All being capable of magic have some intrinsic access to basic spells, knowledge of which is innate. These are the tier 0 spells of each school. See [[DnDominions/Dominions Players/Spells/Basic Magic|Basic Magic]]
