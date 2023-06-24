@@ -25,6 +25,8 @@ For example a pretender might have Cold (2), Misfortune (-1), Order (2), and Gro
 ## Domains
 Pretenders have secret knowledge concerning the operation of the universe, yet this knowledge is incomplete prior to their ascension. Allocate 6 points between the [[DnDominions/Dominions Players/Paths of Magic|Paths of Magic]] which determine the domains your pretender presides over. This determines special magic their priests have access to, grants you points for blessings, and makes accessing rituals of that domain easier for mages in their service.
 
+#TODO extra cost to unlock
+
 The paths are
 - Fire
 - Air

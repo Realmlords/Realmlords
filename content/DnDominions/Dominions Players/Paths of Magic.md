@@ -45,6 +45,7 @@ Knowledge of a path itself confers certain bonuses. each point in a path grants
 | Path | Bonus per Level |
 |------|-------------------|
 | Fire | Fire resistance 5 |
+Death can count corpses
 #TODO 
 
 ## Research

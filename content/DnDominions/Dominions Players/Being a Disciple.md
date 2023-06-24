@@ -49,6 +49,9 @@ extra leadership
 immortal
 priest
 mage
+spirit sight
+free gems
+undead
 
 ### Ability Scores
 Any remaining points are used to determine what ability scores you start with.
