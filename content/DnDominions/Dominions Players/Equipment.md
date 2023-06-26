@@ -1,0 +1,2 @@
+Armor
+Damage reduction
