@@ -50,28 +50,76 @@ Amazon
 - Amazon Queen: gain both the Horse and Snake [[DnDominions/Dominions Players/Systems/Attributes#Magic Tattoo|magic tattoos]]
 
 ## Machaka
+- prefers Heat 2
+- Cultural Paths: Nature, Fire, Death, Earth
 
-## Mictlan
+Currently the Machaka are ruled by the Lion clan. Choose either to be one of their "great men" or from another clan.
+
+Lion King
+- Size: large
+- Str+2 #TODO
+
+Clan Member
+Spider, Rhino, Hyena, Bird
+- hyena Favored Terrain Wasteland
+
 
 ## Abysia
+- prefers Heat 3
+- Cultural Paths: Fire
+
+Abyssian
+- Size: medium
+- Racial Hit Die: 1d8 (+3/4 BAB, good fort, poor will and reflex)
+- low light vision
+- Fire Resistance 25
+- Favored Terrain Wasteland
+- Str +2, Con +2, Cha -4
+- Children of Flame
+	- cannot use wood weapons or flammable armor 
+	- Heat Aura #TODO
 
 ## Caelum
 
 ## C'tis
+- prefers Heat 2
+- Cultural Paths: Death, Nature
 
-## Pangaea
+Lizardman
+- Size: medium
+- Racial Hit Die: 1d8 (+3/4 BAB, good fort, poor will and reflex)
+- Magic Resistance +1
+- Cold Blooded: gain encumbrance equal to double Cold scale
+- Swim speed 15
+- Favored Terrain Swamp
+- Poison Resistance 10
+- Natural Armor +2
 
 ## Tir na n'Og
+- prefers Heat 0
 
-## Fomoria
+
 
 ## Vanheim
+- prefers Cold 1
+- Cultural Paths: Air, Earth
+
+Vanheim Elf
+- Size: medium
+- +1 to all ability scores
+- Magic Resistance +2
+- [[DnDominions/Dominions Players/Systems/Attributes#Glamour|Glamour]]
 
 ## Helheim
+- prefers Cold 1
+- Cultural Paths: Death
 
 ## Niefelheim
+- prefers Cold 3
+- 
 
 ## Rus
+- prefers Cold 2
 
 ## Hinnom
 
@@ -79,7 +127,6 @@ Amazon
 
 ## Berytos
 
-## Mekone
 
 ## Ubar
 

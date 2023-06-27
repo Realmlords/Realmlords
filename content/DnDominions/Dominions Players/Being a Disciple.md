@@ -16,11 +16,13 @@ To create a character you will have 7 points to spend. These points will determi
 - generating ability scores
 
 ### Ancestry
-Choose one of the races based on cost, see [[DnDominions/Dominions Players/Races|Races]] for full stats. This will determine your character's place of origin as well, allowing for easier recruitment of troops from your homeland.
+Choose one of the races based on cost, see [[DnDominions/Dominions Players/Races|Races]] for full stats. This will determine your character's place of origin.
 
 | Cost | Race Options |
 | ----- | --------------- |
-| 0      | Arcoscephale, Ermor, Ulm, Marverni, Sauromatia |
+| 0      | Arcoscephale, Ermor, Ulm, Marverni, Sauromatia, Machaka, Rus, Ur, Berytos |
+| 1 | Abysia, Caelum, C'tis, Tir na n'Og, Vanheim, Helheim |
+| 3 | Niefelheim, Hinnom, Ubar |
 
 ### Class and Level
 Pick a class based on the costs listed below. If you wish to multiclass then you will need to pay the cost for each class you intend to take. Note that spell lists and magic in general are changed.
@@ -38,11 +40,12 @@ Your starting level is determined by points spent. Progression after this is det
 
 | Cost | Starting Level |
 | ----- | --------------- |
-| 0 | 1st level |
-| 1 | 2nd level |
+| 0 | 2nd level |
+| 1 | 3rd level |
+| 2 | 4th level |
 
 ### Afflictions and Attributes
-A unique journey in life so far may have endowed you with supernatural boons. 
+A unique journey in life so far may have endowed you with supernatural boons. You may choose any of the following.
 
 | Cost | Name | Effect |
 | ----- | ------ | ------ |

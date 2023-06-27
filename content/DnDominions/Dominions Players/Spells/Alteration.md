@@ -6,6 +6,8 @@
 > **Range:** self
 > Grants caster +6 bonus on all ranged attack rolls
 
+^5b9d8a
+
 > [!spell] Barkskin
 > **Path:** Nature 1
 > **Casting Time:** 1 round

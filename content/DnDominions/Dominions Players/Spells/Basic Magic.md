@@ -1,3 +1,5 @@
+
+Link to [[DnDominions/Dominions Players/Spells/Alteration#^5b9d8a|Alteration]]
 # Conjuration
 None
 

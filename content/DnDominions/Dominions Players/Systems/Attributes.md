@@ -1,5 +1,9 @@
 Attributes are special features which convey a unique bonus. Listed alphabetically. 
 
+## Glamour
+- all stealth checks rolled twice, taking the better result
+- gain 2 Mirror Images at the start of any combat
+
 ## Magic Tattoo
 - Bear: +4 strength
 - Wolf: +1 base attack bonus
