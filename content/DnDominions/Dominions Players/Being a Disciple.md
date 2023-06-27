@@ -7,6 +7,7 @@ When creating a character consider the following
 - see the alternate [[DnDominions/Dominions Players/Systems/Skills|skill]] rules
 - multiclassing is not permitted for magic-users or priests
 - the importance of [[DnDominions/Dominions Players/Systems/On War#Leadership|leadership]]
+- access to [[DnDominions/Dominions Players/Paths of Magic|Paths of Magic]]
 
 To create a character you will have 7 points to spend. These points will determine what options you have access to, with more powerful races or classes costing more points.
 - choosing a race
@@ -28,9 +29,8 @@ Pick a class based on the costs listed below. If you wish to multiclass then you
 | ----- | --------------- |
 | 0 | Barbarian, [[DnDominions/Dominions Players/Classes/Class Houserules#Fighter\|Fighter]]\*, Monk, [[DnDominions/Dominions Players/Classes/Class Houserules#Ranger\|Ranger]]\*, Rogue, Cavalier, Brawler, Hunter, Slayer, Samurai |
 | 1 | [[DnDominions/Dominions Players/Classes/Class Houserules#Paladin\|Paladin]]\*, Swashbuckler, Shifter, [[DnDominions/Dominions Players/Classes/Class Houserules#Bard\|Bard]]\*, Ninja |
-| 2 | [[DnDominions/Dominions Players/Classes/Priest\|Priest]]†, [[DnDominions/Dominions Players/Classes/Class Houserules#Alchemist\|Alchemist]]\*, Kineticist |
+| 2 | [[DnDominions/Dominions Players/Classes/Priest\|Priest]]†, [[DnDominions/Dominions Players/Classes/Class Houserules#Alchemist\|Alchemist]]\* |
 | 3 | [[DnDominions/Dominions Players/Classes/Magic-User\|Magic-User]]† |
-
 \* See linked houserules
 † New class
 
@@ -42,16 +42,21 @@ Your starting level is determined by points spent. Progression after this is det
 | 1 | 2nd level |
 
 ### Afflictions and Attributes
+A unique journey in life so far may have endowed you with supernatural boons. 
 
-Age
-global enchantment
-extra leadership
-immortal
-priest
-mage
-spirit sight
-free gems
-undead
+| Cost | Name | Effect |
+| ----- | ------ | ------ |
+| -1 | Old Age | -2 Str, Dex, Con; -5 combat movement, +2 encumbrance |
+| 1 | Spirit Sight | Able to see invisible creatures and in darkness. +2 vs illusions |
+| 1 | Gem Generator | Choose a type of gem, you gain 1 each campaign turn |
+
+You may also be attuned to a path of magic, depending on your culture of origin and the powers of your Pretender. These paths must be either from your cultural paths or one in which your Pretender has a score of at least 3.
+
+| Cost | Starting Level |
+| ----- | --------------- |
+| 0 | Random single path at 1 |
+| 1 | Two Paths at 1 OR Divine Power 1 |
+| 3 | Path Rating 2 and Path Rating 1 |
 
 ### Ability Scores
 Any remaining points are used to determine what ability scores you start with.
@@ -59,8 +64,8 @@ Any remaining points are used to determine what ability scores you start with.
 | Cost | Ability Scores |
 | ----- | --------------- |
 | 0 | 4d6 drop lowest |
-| 1 | 20 Point buy |
-
+| 1 | 20 point buy |
+| 2 | 30 point buy |
 
 ## Disciple Powers
 As a disciple you are granted special powers beyond those of other mortals. Even transcending mortality itself so long as your pretender has sway over this world.
