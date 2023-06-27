@@ -1,5 +1,5 @@
 ## Character Creation
-You are a devoted follower of a [[DnDominions/Dominions Players/Creating a Pretender|pretender]], having heard their whisperings at the end of the Age of Calamity. Now you carry their banner to the corners of the realm, hoping to claim Thrones of Ascension.
+You are a devoted follower of a [[DnDominions/Dominions Players/Creating a Pretender|pretender]], having heard their whisperings at the end of the Age of Calamity. An outcast from your people you wander the corners of the realm, carrying their banner to those who will listen.
 
 When creating a character consider the following
 - no traits
@@ -20,7 +20,7 @@ Choose one of the races based on cost, see [[DnDominions/Dominions Players/Races
 
 | Cost | Race Options |
 | ----- | --------------- |
-| 0      | Human |
+| 0      | Arcoscephale, Ermor, Ulm, Marverni |
 
 ### Class and Level
 Pick a class based on the costs listed below. If you wish to multiclass then you will need to pay the cost for each class you intend to take. Note that spell lists and magic in general are changed.
