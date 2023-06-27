@@ -37,14 +37,17 @@ Marvenian
 - Size: medium
 - Choose two ability scores to increase by 2
 - Favored Terrain Mountains and Forest
-- Time of Druids: marked with magical tattoos from secret druidic rituals you are granted additional powers, choose one of the following
-	- Bear: +4 strength
-	- Wolf: +1 base attack bonus
-	- Boar: DR 3/-
-	- Horse: +2 dodge bonus to AC and +10 combat speed
-	- Snake: +2 magic resistance
+- Time of Druids: marked with magical tattoos from secret druidic rituals you are granted additional powers, choose either Bear, Wolf, Board, Horse, or Snake from the [[DnDominions/Dominions Players/Systems/Attributes#Magic Tattoo|magic tattoos]]
 
 ## Sauromatia
+- prefers Heat 0
+- Cultural Paths: Death, Nature
+
+Amazon
+- Size: medium
+- Dex +2, Str +2, Con +1
+- Poison Use
+- Amazon Queen: gain both the Horse and Snake [[DnDominions/Dominions Players/Systems/Attributes#Magic Tattoo|magic tattoos]]
 
 ## Machaka
 

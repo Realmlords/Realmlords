@@ -20,7 +20,7 @@ Choose one of the races based on cost, see [[DnDominions/Dominions Players/Races
 
 | Cost | Race Options |
 | ----- | --------------- |
-| 0      | Arcoscephale, Ermor, Ulm, Marverni |
+| 0      | Arcoscephale, Ermor, Ulm, Marverni, Sauromatia |
 
 ### Class and Level
 Pick a class based on the costs listed below. If you wish to multiclass then you will need to pay the cost for each class you intend to take. Note that spell lists and magic in general are changed.
