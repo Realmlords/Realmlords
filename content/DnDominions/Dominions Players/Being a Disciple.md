@@ -31,7 +31,7 @@ Pick a class based on the costs listed below. If you wish to multiclass then you
 | ----- | --------------- |
 | 0 | Barbarian, [[DnDominions/Dominions Players/Classes/Class Houserules#Fighter\|Fighter]]\*, Monk, [[DnDominions/Dominions Players/Classes/Class Houserules#Ranger\|Ranger]]\*, Rogue, Cavalier, Brawler, Hunter, Slayer, Samurai |
 | 1 | [[DnDominions/Dominions Players/Classes/Class Houserules#Paladin\|Paladin]]\*, Swashbuckler, Shifter, [[DnDominions/Dominions Players/Classes/Class Houserules#Bard\|Bard]]\*, Ninja |
-| 2 | [[DnDominions/Dominions Players/Classes/Priest\|Priest]]†, [[DnDominions/Dominions Players/Classes/Class Houserules#Alchemist\|Alchemist]]\* |
+| 2 | [[DnDominions/Dominions Players/Classes/Cleric|Priest]]†, [[DnDominions/Dominions Players/Classes/Class Houserules#Alchemist\|Alchemist]]\* |
 | 3 | [[DnDominions/Dominions Players/Classes/Magic-User\|Magic-User]]† |
 \* See linked houserules
 † New class
