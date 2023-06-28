@@ -69,10 +69,44 @@ Increases AC by 1, grants Light Fortification,
 Earth 2, 10 earth gems
 #TODO 
 
+### Enhanced Ring Mail
+#TODO 
+
+### Berserker Pelt
+#TODO 
+
 ### Boots of Water Walking
 Water 1, 5 water gems
 
 ### Boots of Long Strides
 Nature 1, 5 nature gems
 Increases combat speed by 20
+
+### Ring of Fire Resistance
+Fire 1, 5 fire gems
+Fire resistance 15
+
+### Ring of Tamed Lightning
+Air 1, 5 air gems
+Electricity resistance 15
+
+### Ring of Frost Resistance
+Water 1, 5 water gems
+Cold resistance 15
+
+### Bear Claw Talisman
+Earth 1, Nature 1, 5 earth gems, 5 nature gems
+#TODO 
+
+### Rabbit Foot Charm
+Astral 1, 5 astral pearls
+The first hit against you instead becomes a miss. After this the charm requires 1 minute to recharge.
+
+### Skull Talisman
+Death 1, 5 death gems
+Undead #TODO 
+
+### Snake Ring
+Nature 1, 5 nature gems
+Poison resistance 30. Snakebite attack #TODO 
 
