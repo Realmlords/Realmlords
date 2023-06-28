@@ -4,10 +4,13 @@ Divine Power is similar to paths of magic in that increasing levels grant increa
 ### Divine Power I
 - Bless
 - Banish Undead
+- Preach
 
 Blessing is a standard action which may be taken during a battle. It applies your pretender's blessing to 5 units.
 
 Banish Undead requires one full round to invoke, and deals 1d6 damage per tier to all undead within 20 x Divine Power. A will save negates this damage. Pretenders with at least 4 in a Path of magic grant additional effects to their priests.
+
+Preach to spread Dominion.
 
 ### Divine Power II
 - Smite Demons

@@ -6,6 +6,8 @@
 
 | Level | Special |
 | ----- | -------- |
-| 1 | Path Bonus |
+| 1 | Starting Paths, Vancian Magic |
+| 2 | Adept Researcher |
+| 3 | School Specialization |
 
-Specialize school - +1 level higher
+**School Specialization:** You have gnostic insight into the esoteric nature of the cosmos beyond that of others. Choose a school of magic you have not yet specialized in, you may access spells one tier higher than your current level of research.
