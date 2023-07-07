@@ -15,6 +15,13 @@ And four sorceries
 - Blood
 
 Researchers in this new age of magic have found seven schools that spells fall in to.
+- Creo
+- Rego
+- Intelligo
+- Muto
+- Perdo
+
+
 - Conjuration
 - Alteration
 - Evocation
