@@ -8,13 +8,13 @@ Elek-Nor was a dark sorcerer of evil intent and mischievous demeanor, who decide
 #### Powers
 *Travel Through Time and Space* - the Tome is able to fling itself, largely at random, across the realms and into the future. Despite having no direct control a malign twist of fate tends to end it up in a secluded location, where it waits for someone unwise to open it.
 
-*Oath of Blood* - opening the Tome requires a sacrifice of blood to unseal the lock which binds it, something which is pictorially made clear along the binding. The first drop loosens the lock and grants the ability to read the tome, something which may be of interest to those questing for a greater [[Magic/Spells/Innate/Truespeech]]. To fully open the tome another drop must be shed and an oath read out from the cover. "To use this knowledge for personal gain, to share with none, and cackle at life's vicissitudes." 
+*Oath of Blood* - opening the Tome requires a sacrifice of blood to unseal the lock which binds it, something which is pictorially made clear along the binding. The first drop loosens the lock and grants the ability to read the tome, something which may be of interest to those questing for a greater [[Truespeech]]. To fully open the tome another drop must be shed and an oath read out from the cover. "To use this knowledge for personal gain, to share with none, and cackle at life's vicissitudes." 
 
 *Marginal Intelligence* - Elek-Nor severed a portion of his soul to reside in his Tome, which grants it a limited understanding and capacity to fulfill its creator's wishes in the ages since his death.
 
 Other than this the tome has little supernatural power, its main effect being the knowledge contained within. An astute reader will learn of the following
 - the true names of a number of powerful (and vindictive) creatures of Law and Chaos
-- spells for *[[Magic/Spells/Conjure Cackling Demons|Conjuring Cackling Demons]]*, the *[[Magic/Spells/Pursuing Boil]]*, and the insidious *[[Magic/Spells/Subtle Caltrop]]*
+- spells for *[[Conjure Cackling Demons|Conjuring Cackling Demons]]*, the *[[Pursuing Boil]]*, and the insidious *[[Subtle Caltrop]]*
 - a lengthy treatise on creating illusions
 - a bizarrely exhaustive list of ideas for inciting strife, seeking revenge, and constructing pranks for a wide range of subjects and situations
 
