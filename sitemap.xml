@@ -1,9 +1,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
+    <loc>https://realmlords.dev/Books/A-Practical-Guide-to-Essence-Harvesting</loc>
+    <lastmod>2024-02-28T03:27:40.154Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/Campaign/Game-Notes/I---Taken-by-the-Winds-of-Chaos</loc>
+    <lastmod>2024-05-22T04:31:33.067Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/Campaign/Game-Notes/II---The-Sunken-Serpentkeep</loc>
+    <lastmod>2024-05-22T04:31:33.067Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/Campaign/Game-Notes/III---The-Shadow-of-the-Grinder</loc>
+    <lastmod>2024-05-22T04:33:28.427Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/Campaign/Game-Notes/IV---A-Cart,-A-Cult,-A-Carnivore</loc>
+    <lastmod>2024-05-22T04:31:33.067Z</lastmod>
+  </url><url>
     <loc>https://realmlords.dev/Campaign/Game-Notes/IX---Ambush-on-Pirate-Island</loc>
     <lastmod>2024-05-16T20:33:24.684Z</lastmod>
   </url><url>
+    <loc>https://realmlords.dev/Campaign/Game-Notes/V---Cutthroats-Among-the-Thorns</loc>
+    <lastmod>2024-05-22T04:31:33.067Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/Campaign/Game-Notes/VI---Return-to-the-Sunken-Serpentkeep</loc>
+    <lastmod>2024-05-22T04:31:29.526Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/Campaign/Game-Notes/VII---The-Death-of-Iris</loc>
+    <lastmod>2024-05-22T04:36:02.074Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/Campaign/Game-Notes/VIII---Fontus-the-Oozemancer</loc>
+    <lastmod>2024-05-22T04:30:48.365Z</lastmod>
+  </url><url>
     <loc>https://realmlords.dev/Campaign/Game-Notes/X---Opportunities-in-the-Ochre-City</loc>
     <lastmod>2024-05-21T06:37:44.129Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/Campaign/Game-Notes/XI---Festival-of-Fortune</loc>
+    <lastmod>2024-05-22T04:17:54.413Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/Characters/Cast-of-Characters</loc>
+    <lastmod>2024-05-22T04:46:34.580Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/Characters/The-Grinder</loc>
+    <lastmod>2024-02-06T05:12:15.095Z</lastmod>
   </url><url>
     <loc>https://realmlords.dev/Characters/Wizards/Fontus-the-Oozemancer</loc>
     <lastmod>2024-05-16T20:33:24.645Z</lastmod>
@@ -32,8 +68,14 @@
     <loc>https://realmlords.dev/System/Secret-Techniques/Aligned-to-the-Lunar-Powers</loc>
     <lastmod>2024-05-21T06:37:44.108Z</lastmod>
   </url><url>
+    <loc>https://realmlords.dev/System/Secret-Techniques/Fire-Dancing</loc>
+    <lastmod>2024-02-05T09:53:03.354Z</lastmod>
+  </url><url>
     <loc>https://realmlords.dev/World/Locations/Lesser-Noachis/Aimilus</loc>
     <lastmod>2024-05-16T20:33:24.744Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/World/Locations/Lesser-Noachis/House-of-The-Grinder</loc>
+    <lastmod>2024-02-06T05:12:16.256Z</lastmod>
   </url><url>
     <loc>https://realmlords.dev/</loc>
     <lastmod>2024-05-16T20:33:24.676Z</lastmod>
