@@ -1,6 +1,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://realmlords.dev/Books/A-Practical-Guide-to-Essence-Harvesting</loc>
+    <loc>https://realmlords.dev/Books/Concerned-Tyro/A-Practical-Guide-to-Essence-Harvesting</loc>
     <lastmod>2024-02-28T03:27:40.154Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/Books/Concerned-Tyro/On-The-Nature-of-Brain-Wasps</loc>
+    <lastmod>2024-05-26T01:00:53.111Z</lastmod>
   </url><url>
     <loc>https://realmlords.dev/Campaign/Game-Notes/I---Taken-by-the-Winds-of-Chaos</loc>
     <lastmod>2024-05-22T04:31:33.067Z</lastmod>
@@ -35,6 +38,9 @@
     <loc>https://realmlords.dev/Campaign/Game-Notes/XI---Festival-of-Fortune</loc>
     <lastmod>2024-05-22T04:17:54.413Z</lastmod>
   </url><url>
+    <loc>https://realmlords.dev/Characters/Aimilus/Iris</loc>
+    <lastmod>2024-01-29T04:25:33.392Z</lastmod>
+  </url><url>
     <loc>https://realmlords.dev/Characters/Cast-of-Characters</loc>
     <lastmod>2024-05-22T04:46:34.580Z</lastmod>
   </url><url>
@@ -43,6 +49,21 @@
   </url><url>
     <loc>https://realmlords.dev/Characters/Wizards/Fontus-the-Oozemancer</loc>
     <lastmod>2024-05-16T20:33:24.645Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/Characters/Wizards/Lutrex-Earthmaster</loc>
+    <lastmod>2024-02-10T06:34:35.782Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/Characters/Wizards/Sabtah-All-Grasping</loc>
+    <lastmod>2024-05-04T03:47:03.016Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/Gods-and-Spirits/Void-Spider</loc>
+    <lastmod>2024-02-22T09:59:01.380Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/Monsters/Beasts/Brain-Wasp</loc>
+    <lastmod>2023-11-23T13:37:31.657Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/Player's-Guide</loc>
+    <lastmod>2024-05-16T20:33:24.676Z</lastmod>
   </url><url>
     <loc>https://realmlords.dev/System/Items/Poison/Xanthicon</loc>
     <lastmod>2024-05-18T01:33:17.273Z</lastmod>
@@ -59,8 +80,20 @@
     <loc>https://realmlords.dev/System/Magic-Items/Alchemy-and-Potions/Oozes/Slime-Bomb</loc>
     <lastmod>2024-05-09T18:48:44.511Z</lastmod>
   </url><url>
+    <loc>https://realmlords.dev/System/Magic-Items/Alchemy-and-Potions/The-Prime-Acid</loc>
+    <lastmod>2024-01-16T07:07:42.911Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/System/Magic-Items/Crimson-Cloak</loc>
+    <lastmod>2024-05-24T04:40:16.319Z</lastmod>
+  </url><url>
     <loc>https://realmlords.dev/System/Magic-Items/Devices/Arkanythera-Mechanism</loc>
     <lastmod>2024-05-18T01:11:01.069Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/System/Magic-Items/Devices/Lantern-of-Bound-Radiance</loc>
+    <lastmod>2024-05-26T02:21:07.787Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/System/Magic/Chaos-Magic/The-Hungry-Earth</loc>
+    <lastmod>2024-05-25T19:18:56.864Z</lastmod>
   </url><url>
     <loc>https://realmlords.dev/System/Magic/Magecraft/Techniques/Construction/The-Lesser-Circle-of-Construction</loc>
     <lastmod>2024-05-21T06:37:44.113Z</lastmod>
@@ -71,11 +104,29 @@
     <loc>https://realmlords.dev/System/Secret-Techniques/Fire-Dancing</loc>
     <lastmod>2024-02-05T09:53:03.354Z</lastmod>
   </url><url>
+    <loc>https://realmlords.dev/World/Cosmology-and-Astronomy</loc>
+    <lastmod>2024-02-05T09:52:57.934Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/World/Culture-and-Setting/Ophidian-Law</loc>
+    <lastmod>2024-02-06T05:12:05.071Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/World/Locations/Alcheran-City-States/City-of-Gold</loc>
+    <lastmod>2024-02-06T05:12:23.184Z</lastmod>
+  </url><url>
     <loc>https://realmlords.dev/World/Locations/Lesser-Noachis/Aimilus</loc>
     <lastmod>2024-05-16T20:33:24.744Z</lastmod>
   </url><url>
+    <loc>https://realmlords.dev/World/Locations/Lesser-Noachis/Allmoot</loc>
+    <lastmod>2024-01-23T13:08:23.513Z</lastmod>
+  </url><url>
     <loc>https://realmlords.dev/World/Locations/Lesser-Noachis/House-of-The-Grinder</loc>
     <lastmod>2024-02-06T05:12:16.256Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/World/Locations/Lesser-Noachis/Sunken-Serpentkeep</loc>
+    <lastmod>2024-01-29T04:13:53.015Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/World/Locations/Lesser-Noachis/The-Statue-Garden</loc>
+    <lastmod>2024-02-05T09:52:57.918Z</lastmod>
   </url><url>
     <loc>https://realmlords.dev/</loc>
     <lastmod>2024-05-16T20:33:24.676Z</lastmod>
