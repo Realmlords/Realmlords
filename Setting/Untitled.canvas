@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"00bcc596a76aa4e0","x":100,"y":-120,"width":400,"height":400,"type":"group","label":"Zhodanhi Consulate"},
+		{"id":"a4e49f879f05c5ed","x":-255,"y":-110,"width":250,"height":60,"type":"text","text":""},
+		{"id":"e25937a640d5f459","x":116,"y":-89,"width":300,"height":140,"type":"text","text":"Zhodahni Consulate"}
+	],
+	"edges":[]
+}
