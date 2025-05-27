@@ -1,0 +1,52 @@
+.top-header {
+  border-top-width: 3px;
+  border-style: solid;
+  color: #000;
+}
+
+.stats-container {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.right-image {
+  margin-left: auto
+}
+
+.header-cell {
+  font-weight: bold;
+}
+
+table.weapon-table {
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+table.weapon-table td, table.weapon-table th {
+  border: 2px solid black;
+}
+
+@font-face {
+  font-family: HMType;
+  src: url(Hvymtl2.ttf);
+}
+
+@font-face {
+  font-family: BTLogo;
+  src: url(BTLogo_old.ttf);
+}
+
+body {
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 0 10px;
+  font: 18px/1.5 HMType;
+  color: #000;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  font-family: BTLogo;
+}
