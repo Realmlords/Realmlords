@@ -1,0 +1,445 @@
+filters:
+  and:
+    - '!file.inFolder("Publishing/Templates")'
+    - file.tags.contains("spell")
+formulas:
+  Untitled: ""
+views:
+  - type: table
+    name: All Spells
+    order:
+      - file.name
+      - occlusion
+      - technique
+      - potency
+      - paths
+    sort:
+      - property: occlusion
+        direction: ASC
+      - property: technique
+        direction: ASC
+      - property: formula.Untitled
+        direction: ASC
+      - property: path
+        direction: ASC
+    columnSize:
+      note.technique: 108
+  - type: table
+    name: Starting Spells
+    filters:
+      and:
+        - potency <= 2
+        - occlusion <= 2
+        - technique == "Thaumaturgy"
+    order:
+      - file.name
+      - occlusion
+      - technique
+      - potency
+      - paths
+    sort:
+      - property: technique
+        direction: DESC
+  - type: table
+    name: Adjure Air
+    filters:
+      and:
+        - technique == "Adjuration"
+        - paths.contains("Air")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Alter Air
+    filters:
+      and:
+        - technique == "Alteration"
+        - paths.contains("Air")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Conjure Air
+    filters:
+      and:
+        - technique == "Conjuration"
+        - paths.contains("Air")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Enchant Air
+    filters:
+      and:
+        - technique == "Enchantment"
+        - paths.contains("Air")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Thaumaturgy Air
+    filters:
+      and:
+        - technique == "Thaumaturgy"
+        - paths.contains("Air")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Alter Fire
+    filters:
+      and:
+        - technique == "Alteration"
+        - paths.contains("Fire")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Adjure Fire
+    filters:
+      and:
+        - technique == "Adjuration"
+        - paths.contains("Fire")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Conjure Fire
+    filters:
+      and:
+        - technique == "Conjuration"
+        - paths.contains("Fire")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Enchant Fire
+    filters:
+      and:
+        - technique == "Enchantment"
+        - paths.contains("Fire")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Thaumaturgy Fire
+    filters:
+      and:
+        - technique == "Thaumaturgy"
+        - paths.contains("Fire")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Alter Earth
+    filters:
+      and:
+        - technique == "Alteration"
+        - paths.contains("Earth")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Adjure Earth
+    filters:
+      and:
+        - technique == "Adjuration"
+        - paths.contains("Earth")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Conjure Earth
+    filters:
+      and:
+        - technique == "Conjuration"
+        - paths.contains("Earth")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Enchant Earth
+    filters:
+      and:
+        - technique == "Enchantment"
+        - paths.contains("Earth")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Thaumaturgy Earth
+    filters:
+      and:
+        - technique == "Thaumaturgy"
+        - paths.contains("Earth")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Alter Water
+    filters:
+      and:
+        - technique == "Alteration"
+        - paths.contains("Water")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Adjure Water
+    filters:
+      and:
+        - technique == "Adjuration"
+        - paths.contains("Water")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Conjure Water
+    filters:
+      and:
+        - technique == "Conjuration"
+        - paths.contains("Water")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Enchant Water
+    filters:
+      and:
+        - technique == "Enchantment"
+        - paths.contains("Water")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Thaumaturgy Water
+    filters:
+      and:
+        - technique == "Thaumaturgy"
+        - paths.contains("Water")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Alter Blood
+    filters:
+      and:
+        - technique == "Alteration"
+        - paths.contains("Blood")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Adjure Blood
+    filters:
+      and:
+        - technique == "Adjuration"
+        - paths.contains("Blood")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Conjure Blood
+    filters:
+      and:
+        - technique == "Conjuration"
+        - paths.contains("Blood")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Enchant Blood
+    filters:
+      and:
+        - technique == "Enchantment"
+        - paths.contains("Blood")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Thaumaturgy Blood
+    filters:
+      and:
+        - technique == "Thaumaturgy"
+        - paths.contains("Blood")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Alter Celestial
+    filters:
+      and:
+        - technique == "Alteration"
+        - paths.contains("Celestial")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Adjure Celestial
+    filters:
+      and:
+        - technique == "Adjuration"
+        - paths.contains("Celestial")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Conjure Celestial
+    filters:
+      and:
+        - technique == "Conjuration"
+        - paths.contains("Celestial")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Enchant Celestial
+    filters:
+      and:
+        - technique == "Enchantment"
+        - paths.contains("Celestial")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Thaumaturgy Celestial
+    filters:
+      and:
+        - technique == "Thaumaturgy"
+        - paths.contains("Celestial")
+    order:
+      - file.name
+      - occlusion
+      - potency
+    sort:
+      - property: occlusion
+        direction: ASC
+  - type: table
+    name: Grey Magic
+    filters:
+      and:
+        - paths.contains("Grey")
+    order:
+      - file.name
+      - occlusion
+      - potency
+      - technique
+    sort:
+      - property: occlusion
+        direction: ASC

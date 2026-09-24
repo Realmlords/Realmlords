@@ -1,0 +1,20 @@
+formulas:
+  tech: '"[[" + file.folder + "/" + file.name + "|" + note.name +  "]]"'
+properties:
+  formula.tech:
+    displayName: Link
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("spell")
+        - '!file.inFolder("Publishing/Templates")'
+    order:
+      - formula.tech
+      - technique
+      - occlusion
+      - potency
+    sort: []
+    columnSize:
+      formula.tech: 328

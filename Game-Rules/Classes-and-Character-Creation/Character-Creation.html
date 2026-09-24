@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html><head><title>Character Creation</title><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="Character Creation"/><meta property="og:description" content="Creating a character requires generating the basic abilities of your adventurer, understanding their cultural and upbringings, choosing a class, defining their allies, and preparing for adventure."/><meta property="og:image" content="https://realmlords.dev/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="Creating a character requires generating the basic abilities of your adventurer, understanding their cultural and upbringings, choosing a class, defining their allies, and preparing for adventure."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Klarissa:wght@400;700&amp;family=Universalis:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script></head><body data-slug="Game-Rules/Classes-and-Character-Creation/Character-Creation"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="../..">REALMLORDS</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="search-layout" data-preview="true"></div></div></div></div><div class="explorer desktop-only"><button type="button" id="explorer" data-behavior="collapse" data-collapsed="collapsed" data-savestate="true" data-tree="[{&quot;path&quot;:&quot;Campaign&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Game-Rules&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Game-Rules/Adventuring&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Game-Rules/Classes-and-Character-Creation&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Game-Rules/Classes-and-Character-Creation/Cultural-Background&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Game-Rules/Classes-and-Character-Creation/Expertise&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Game-Rules/Classes-and-Character-Creation/Expertise/General&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Game-Rules/Classes-and-Character-Creation/Expertise/Martial&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Game-Rules/Classes-and-Character-Creation/Expertise/Traits&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Game-Rules/Magic&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Game-Rules/Magic/Rituals&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Game-Rules/Magic/Rituals/Initiations&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Game-Rules/Magic/Spells&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Game-Rules/Magic/Spells/Adjuration&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Game-Rules/Magic/Spells/Adjuration/Fire&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Game-Rules/Magic/Spells/Enchantment&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Game-Rules/Season-Phase&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Shrinelands&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Shrinelands/Ephemeral-Realm&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Shrinelands/Ephemeral-Realm/Gods&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Shrinelands/Ephemeral-Realm/Gods/Minor&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Shrinelands/Objects&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Shrinelands/Objects/Devices&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Shrinelands/Time&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Shrinelands/Time/Seasons&quot;,&quot;collapsed&quot;:true},{&quot;path&quot;:&quot;Shrinelands/Time/Times-of-Note&quot;,&quot;collapsed&quot;:true}]"><h1>Explorer</h1><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-content"><ul class="overflow" id="explorer-ul"><li><div class="folder-outer open"><ul style="padding-left:0;" class="content" data-folderul><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Campaign"><button class="folder-button"><span class="folder-title">Campaign</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Campaign"><li><a href="../../Campaign/Campaign-Premise" data-for="Campaign/Campaign-Premise">Campaign Premise</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Game-Rules"><button class="folder-button"><span class="folder-title">Game Rules</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Game-Rules"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Game-Rules/Adventuring"><button class="folder-button"><span class="folder-title">Adventuring</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Game-Rules/Adventuring"><li><a href="../../Game-Rules/Adventuring/Adventure" data-for="Game-Rules/Adventuring/Adventure">Adventure</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Game-Rules/Classes-and-Character-Creation"><button class="folder-button"><span class="folder-title">Classes and Character Creation</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Game-Rules/Classes-and-Character-Creation"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Game-Rules/Classes-and-Character-Creation/Cultural-Background"><button class="folder-button"><span class="folder-title">Cultural Background</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Game-Rules/Classes-and-Character-Creation/Cultural-Background"><li><a href="../../Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-Blem" data-for="Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-Blem">Secrets of Blem</a></li><li><a href="../../Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-Hapolis" data-for="Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-Hapolis">Secrets of Hapolis</a></li><li><a href="../../Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-New-Lankh" data-for="Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-New-Lankh">Secrets of New Lankh</a></li><li><a href="../../Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-the-Beast-Kingdoms" data-for="Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-the-Beast-Kingdoms">Secrets of the Beast Kingdoms</a></li><li><a href="../../Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-the-City-of-Miners" data-for="Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-the-City-of-Miners">Secrets of the City of Miners</a></li><li><a href="../../Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-Xanthe" data-for="Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-Xanthe">Secrets of Xanthe</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Game-Rules/Classes-and-Character-Creation/Expertise"><button class="folder-button"><span class="folder-title">Expertise</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Game-Rules/Classes-and-Character-Creation/Expertise"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Game-Rules/Classes-and-Character-Creation/Expertise/General"><button class="folder-button"><span class="folder-title">General</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Game-Rules/Classes-and-Character-Creation/Expertise/General"><li><a href="../../Game-Rules/Classes-and-Character-Creation/Expertise/General/Lankh-Trained-Alchemist" data-for="Game-Rules/Classes-and-Character-Creation/Expertise/General/Lankh-Trained-Alchemist">Lankh-Trained Alchemist</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Game-Rules/Classes-and-Character-Creation/Expertise/Martial"><button class="folder-button"><span class="folder-title">Martial</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Game-Rules/Classes-and-Character-Creation/Expertise/Martial"><li><a href="../../Game-Rules/Classes-and-Character-Creation/Expertise/Martial/Armsmaster" data-for="Game-Rules/Classes-and-Character-Creation/Expertise/Martial/Armsmaster">Armsmaster</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Game-Rules/Classes-and-Character-Creation/Expertise/Traits"><button class="folder-button"><span class="folder-title">Traits</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Game-Rules/Classes-and-Character-Creation/Expertise/Traits"><li><a href="../../Game-Rules/Classes-and-Character-Creation/Expertise/Traits/Animal-Aspect" data-for="Game-Rules/Classes-and-Character-Creation/Expertise/Traits/Animal-Aspect">Animal Aspect</a></li></ul></div></li></ul></div></li><li><a href="../../Game-Rules/Classes-and-Character-Creation/Character-Creation" data-for="Game-Rules/Classes-and-Character-Creation/Character-Creation">Character Creation</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Game-Rules/Magic"><button class="folder-button"><span class="folder-title">Magic</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Game-Rules/Magic"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Game-Rules/Magic/Rituals"><button class="folder-button"><span class="folder-title">Rituals</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Game-Rules/Magic/Rituals"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Game-Rules/Magic/Rituals/Initiations"><button class="folder-button"><span class="folder-title">Initiations</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Game-Rules/Magic/Rituals/Initiations"><li><a href="../../Game-Rules/Magic/Rituals/Initiations/Wading-Through-the-Trials-of-Heron" data-for="Game-Rules/Magic/Rituals/Initiations/Wading-Through-the-Trials-of-Heron">Wading Through the Trials of Heron</a></li></ul></div></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Game-Rules/Magic/Spells"><button class="folder-button"><span class="folder-title">Spells</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Game-Rules/Magic/Spells"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Game-Rules/Magic/Spells/Adjuration"><button class="folder-button"><span class="folder-title">Adjuration</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Game-Rules/Magic/Spells/Adjuration"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Game-Rules/Magic/Spells/Adjuration/Fire"><button class="folder-button"><span class="folder-title">Fire</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Game-Rules/Magic/Spells/Adjuration/Fire"><li><a href="../../Game-Rules/Magic/Spells/Adjuration/Fire/Kindling-the-Soul" data-for="Game-Rules/Magic/Spells/Adjuration/Fire/Kindling-the-Soul">Kindling the Soul</a></li></ul></div></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Game-Rules/Magic/Spells/Enchantment"><button class="folder-button"><span class="folder-title">Enchantment</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Game-Rules/Magic/Spells/Enchantment"><li><a href="../../Game-Rules/Magic/Spells/Enchantment/Stabilize-the-Alchemist's-Efforts" data-for="Game-Rules/Magic/Spells/Enchantment/Stabilize-the-Alchemist's-Efforts">Stabilize the Alchemist's Efforts</a></li></ul></div></li></ul></div></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Game-Rules/Season-Phase"><button class="folder-button"><span class="folder-title">Season Phase</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Game-Rules/Season-Phase"><li><a href="../../Game-Rules/Season-Phase/Seasonal-Activities" data-for="Game-Rules/Season-Phase/Seasonal-Activities">Seasonal Activities</a></li></ul></div></li><li><a href="../../Game-Rules/Equipment" data-for="Game-Rules/Equipment">Equipment</a></li><li><a href="../../Game-Rules/Skills" data-for="Game-Rules/Skills">Skills</a></li><li><a href="../../Game-Rules/System-Overview" data-for="Game-Rules/System-Overview">System Overview</a></li><li><a href="../../Game-Rules/Welcome-to-the-Shrinelands" data-for="Game-Rules/Welcome-to-the-Shrinelands">Welcome to the Shrinelands</a></li></ul></div></li><li><div class="folder-outer "><ul style="padding-left:0;" class="content" data-folderul></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Shrinelands"><button class="folder-button"><span class="folder-title">Shrinelands</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Shrinelands"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Shrinelands/Ephemeral-Realm"><button class="folder-button"><span class="folder-title">Ephemeral Realm</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Shrinelands/Ephemeral-Realm"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Shrinelands/Ephemeral-Realm/Gods"><button class="folder-button"><span class="folder-title">Gods</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Shrinelands/Ephemeral-Realm/Gods"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Shrinelands/Ephemeral-Realm/Gods/Minor"><button class="folder-button"><span class="folder-title">Minor</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Shrinelands/Ephemeral-Realm/Gods/Minor"><li><a href="../../Shrinelands/Ephemeral-Realm/Gods/Minor/Asterion" data-for="Shrinelands/Ephemeral-Realm/Gods/Minor/Asterion">Asterion</a></li></ul></div></li></ul></div></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Shrinelands/Objects"><button class="folder-button"><span class="folder-title">Objects</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Shrinelands/Objects"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Shrinelands/Objects/Devices"><button class="folder-button"><span class="folder-title">Devices</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Shrinelands/Objects/Devices"><li><a href="../../Shrinelands/Objects/Devices/Astrolabe" data-for="Shrinelands/Objects/Devices/Astrolabe">Astrolabe</a></li></ul></div></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Shrinelands/Time"><button class="folder-button"><span class="folder-title">Time</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Shrinelands/Time"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Shrinelands/Time/Seasons"><button class="folder-button"><span class="folder-title">Seasons</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Shrinelands/Time/Seasons"><li><a href="../../Shrinelands/Time/Seasons/Chaos-Season" data-for="Shrinelands/Time/Seasons/Chaos-Season">Chaos Season</a></li><li><a href="../../Shrinelands/Time/Seasons/Law-Season" data-for="Shrinelands/Time/Seasons/Law-Season">Law Season</a></li></ul></div></li><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div data-folderpath="Shrinelands/Time/Times-of-Note"><button class="folder-button"><span class="folder-title">Times of Note</span></button></div></div><div class="folder-outer "><ul style="padding-left:1.4rem;" class="content" data-folderul="Shrinelands/Time/Times-of-Note"><li><a href="../../Shrinelands/Time/Times-of-Note/Divination-Day" data-for="Shrinelands/Time/Times-of-Note/Divination-Day">Divination Day</a></li></ul></div></li><li><a href="../../Shrinelands/Time/Calendar" data-for="Shrinelands/Time/Calendar">Calendar</a></li></ul></div></li></ul></div></li></ul></div></li><li id="explorer-end"></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../Game-Rules/">Game Rules</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../Game-Rules/Classes-and-Character-Creation/">Classes and Character Creation</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Character Creation</a></div></nav><h1 class="article-title">Character Creation</h1></div></div><article class="popover-hint"><p>Creating a character requires generating the basic abilities of your adventurer, understanding their cultural and upbringings, choosing a class, defining their allies, and preparing for adventure.</p>
+<p>During character creation you may accrue blessings of Chaos for embracing serendipity, keep track of the total number of these. At the end of character creation each will influence their life in interesting ways.</p>
+<ol>
+<li>Roll characteristics</li>
+<li>Culture</li>
+<li>Background</li>
+<li>Class</li>
+<li>Class kit</li>
+<li>Starting gear</li>
+<li>Hit points</li>
+<li>Name, backstory</li>
+</ol>
+<h3 id="roll-characteristics">Roll Characteristics<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#roll-characteristics" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Characters have six Characteristics: Strength, Dexterity, Constitution, Wisdom, Intelligence, and Charisma - usually between 3 and 18.  These reflect their general potency in a number of domains.</p>
+<ul>
+<li>Strength: melee attack and damage rolls, carrying capacity</li>
+<li>Dexterity: armor class, ranged attack rolls, avoiding fireballs</li>
+<li>Constitution: hit points, saves against poison and transformation effects</li>
+<li>Intelligence: soul points, bonus training points</li>
+<li>Wisdom: saves against mental and magical effects, avoiding surprise and ambush, teaching</li>
+<li>Charisma: reaction rolls, Command Capacity</li>
+</ul>
+<p>Roll a set of 3d6 four times in a row and write down these numbers. From here you have a choice:</p>
+<ul>
+<li>Roll two more sets of 3d6, assign each of these six numbers to your six characteristics in any order, gain 2 blessings of Chaos.</li>
+<li>Ignore the prior rolls and use a static array. Assign 15, 12, 10, 10, 9, 7 to your characteristics.</li>
+</ul>
+<p>Each has a corresponding modifier, a derived value used when that attribute is relevant to a die roll.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Characteristic</th><th>Modifier</th></tr></thead><tbody><tr><td>1-2</td><td>-3</td></tr><tr><td>3-5</td><td>-2</td></tr><tr><td>6-8</td><td>-1</td></tr><tr><td>9-11</td><td>+0</td></tr><tr><td>12-14</td><td>+1</td></tr><tr><td>15-17</td><td>+2</td></tr><tr><td>18 or more</td><td>+3</td></tr></tbody></table></div>
+<h3 id="culture-and-background">Culture and Background<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#culture-and-background" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Gain 2 training points in each of your culture’s favored skills,  these will be used to determine your total <strong>Skill Rank</strong> later, write down any (specializations) from cultural skills</li>
+<li>Write down your starting languages</li>
+<li>Note any additional traits</li>
+<li>Determine your character’s exact birthplace from the options presented, either by roll or choice. This also includes the location on the map.</li>
+</ul>
+<p>After this you may either choose your character’s background, or roll on your culture’s background chart to gain another blessing of Chaos. Note down how your character was raised and what skills they gain from this. This does not have to favor one parent or another, and can also include induction into a fraternal guild, adoption by another clan, or other manner of relationship.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th></th><th>Culture</th><th>Skills</th></tr></thead><tbody><tr><td>1-2</td><td>Beast Kingdoms</td><td>Beastmastery, Heal, Seneschal, Alteration</td></tr><tr><td>3</td><td>Alcheran</td><td>Athletics, Artisanry, Language, Lore</td></tr><tr><td>4</td><td>New Lankh</td><td>Alchemy, Devicecraft, Stealth, Exotic Arms</td></tr><tr><td>5</td><td>Blemmyes</td><td>Bushcraft, Heal, Lore, Investigation</td></tr><tr><td>6</td><td>Ophidian</td><td>Alchemy, Diplomacy, Language, Seneschal</td></tr><tr><td>7</td><td>City of Miners</td><td>Artisanry, Devicecraft, Hand Weapon, Mining</td></tr><tr><td>8</td><td>Xanthian</td><td>Archery, Athletics, Sail, Teach</td></tr><tr><td>-</td><td>(Distant Realm)</td><td>4 skills*</td></tr></tbody></table></div>
+<h4 id="beast-kingdoms">Beast Kingdoms<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#beast-kingdoms" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>Languages: Noctian</li>
+<li>2 training points in Beastmastery, Heal, Seneschal, Alteration</li>
+<li>Head of a heraldic animal</li>
+<li>Born in 1d4: 1 - the domain of grand Chimericon under Prince Cyrus <code>&lt;x, y, z></code></li>
+</ul>
+<p>These kingdoms are a contentious group of fiefdoms held together by a rigid caste system, where people have the heads of animals. Long ago the people of the Beast Kingdoms lived deep within Noctis Labyrinthus, until the coming of ash and the death of the Fates drove them out. What remains in Noctis are only strange and twisted beasts.</p>
+<p>The princes hold near absolute power within their domains, and life is harshly dictated by numerous taboos; forbidden the eating of certain foods, forbidding the use of many colors of dress by the lower classes, and circumscribing life on all fronts.</p>
+<p>Covered more in <a href="../../Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-the-Beast-Kingdoms" class="internal alias" data-slug="Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-the-Beast-Kingdoms">Secrets of the Beast Kingdoms</a>.</p>
+<h4 id="alcheran">Alcheran<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#alcheran" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>Languages: Alcheran, Psuedophidian</li>
+<li>2 training points in Athletics, Artisanry, Diplomacy, Trade</li>
+<li>Gain 6 points in Background skills instead of the normal 5</li>
+<li>Born in 1d4: 1 - the vast halls of Labyrinth, 2 - the hinterlands beyond Labyrinth, 3 - the former glory of the City of Glass, 4 - a smaller city state who’s nature you help determine with your GM</li>
+</ul>
+<p>Alcherans pride themselves on the democratic lineage of their city-states, where citizenship is granted to those who excel at a city’s chosen form of artisanry. Within Labyrinth the creation of books is of uptmost importance, as exemplified by the grand temple to Heron atop the acropolis.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th></th><th>Background</th><th>Skills</th></tr></thead><tbody><tr><td>1</td><td>Craftsman</td><td>Artisanry, Concentration, Diplomacy, Seneschal, Trade</td></tr><tr><td>2</td><td>Caravaneer</td><td>Diplomacy, Language, Lead, Navigation, Trade</td></tr><tr><td>3</td><td>Courtier</td><td>Diplomacy, Language, Perform, Teaching, Heal</td></tr><tr><td>4</td><td>Criminal</td><td>Stealth, Devicecraft, Investigation, Hand Weapon, Trade</td></tr><tr><td>5</td><td>Hunter</td><td>Archery, Bushcraft, Navigation, Stealth, Beastmastery</td></tr><tr><td>6</td><td>Farmer</td><td>Beastmastery, Bushcraft, Divination, Polearms, Athletics</td></tr><tr><td>7</td><td>Priest</td><td>Diplomacy, Divination, Heal, Lore, Ritual</td></tr><tr><td>8</td><td>Sailor</td><td>Athletics, Navigation, Lead, Hand Weapon, Sail</td></tr><tr><td>9</td><td>Scholar</td><td>Seneschal, Language, Lore, Concentration, Investigation</td></tr><tr><td>10</td><td>Diviner</td><td>Divination, Investigation, Language, Lore, Enchantment</td></tr><tr><td>11</td><td>Soldier</td><td>Thrown, Brawl, Great Weapon, Hand Weapon, Athletics</td></tr><tr><td>12</td><td>Itinerant</td><td>Navigation + 3 general skills</td></tr></tbody></table></div>
+<h4 id="new-lankh">New Lankh<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#new-lankh" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>Languages: Mortanian, Psuedophidian</li>
+<li>2 training points in Alchemy, Devicecraft, Stealth, Exotic Arms</li>
+<li>Maintenance of cost of Lankh technology is reduced by 1</li>
+</ul>
+<p>New Lankh is a soot-filled city which teleported from the Wandering Moon twenty years ago, home to technological marvels that are slowly breaking down in their new environment. Previously Lankh was merely a district of a sprawling gaslit metropolis, ruled by vampiric overlords. Now its position in an entirely new world is much more uncertain.</p>
+<h4 id="blemmyes">Blemmyes<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#blemmyes" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>Languages: Blem, Ophidian</li>
+<li>2 training points in Bushcraft, Heal, Lore, Investigation</li>
+<li>Headless: 50% chance for any critical hit to be a regular hit instead</li>
+</ul>
+<p>Headless men, also called the akephaloi, they have large faces on their chests rather than the typical arrangement. Most live in and around Blem, although some have migrated through Alcheran lands. The Blemmyes claim descent from the original inhabitants of the Shrinelands, having survived the floods of the First Age, corrupting sands of the Third Age, and all number of wars, plagues, and disasters.</p>
+<h4 id="ophidian">Ophidian<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ophidian" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>Languages: Ophidian, Psuedophidian</li>
+<li>2 training points in Alchemy, Diplomacy, Language, Seneschal</li>
+<li>Toxic blood, ability to draw out poison</li>
+</ul>
+<p>The height of the Ophidian Empire has long gone, and recent years have added further strife. Civil wars rage across what was once the empire, resulting in a small group of Ophidian refugees forming a sister city to Blem. Ophidians themselves have a varying degree of serpentine traits. Most slither on a serpentine tail, while all of them have poison blood and fangs.</p>
+<h4 id="city-of-miners">City of Miners<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#city-of-miners" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>Languages: Underspeech, Alcheran</li>
+<li>2 training points in Artisanry, Devicecraft, Hand Weapon (Hammer), Enchantment, Mining</li>
+<li>Cave sense: able to navigate in enclosed stone environments without light</li>
+</ul>
+<p>The City of Miners has a distinct history harkening back to dwarven holds from long ago. From this they still retain their traditions, and the ability to thrive underground. In the time since they have become more akin to their Alcheran neighbors as one of the great city-states.</p>
+<h4 id="xanthian">Xanthian<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#xanthian" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>Languages: Xanthian, Psuedophidian</li>
+<li>2 training points in Archery, Athletics, Sail, Teach</li>
+<li>Specializations in Archery (Great Bow), Athletics (Swim), and Conjuration (Illusion)</li>
+<li>Gain 1 additional hit point per hit die</li>
+</ul>
+<p>Easternmost of the eras after atlantis<a href="../.././../tags/todo" class="tag-link internal alias" data-slug="tags/todo">#todo</a></p>
+<p>The storm-hardened shores of Xanthe are home to lands of incredible abundance. Along these live the Xanthe, peerless sailors and travelers. They live in wandering clan-ships, variously warring with rivals or marrying friends. Greatest among them are their elders, those who have survived a terrible transformation to become guides for their people - however in recent times a corrupt king has taken power of exiled many of the formerly esteemed elders. The Xanthe who have ended up in the Shrinelands have a more tragic history, as the remnants of a shipwrecked expedition stranded by a formidable storm.</p>
+<h4 id="distant-realm">Distant Realm<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#distant-realm" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>Languages: native language of your homeland</li>
+<li>2 training points in any 4 distinct skills, of which 2 must be General skills</li>
+<li>+2 to a single ability score (maximum 18) reflecting the special nature of your original homeland</li>
+</ul>
+<p>You are from a far distant realm, one unknown to most people of the Shrinelands. Possibly even from another plane of existence, such interlopers are common in land of Noachis and often find themselves drawn to adventure in these western lands. Work with the GM to come up with the exact nature of this origin.</p>
+<p>Choose one of the above cultures for where your recent primary residence has been, write this down alongside some details of your original homeland. Decide if you have arrived alone, in which case you live with some form of adopted family or community, or if a small enclave of your people have joined the Shrinelands.</p>
+<h3 id="time-of-birth">Time of Birth<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#time-of-birth" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>The adventure begins in the year 320. Choose what year your character was born in, and the wind that presided over their birth. For those born in a “short year”, anytime between the year 300 and 278, these are:</p>
+<ul>
+<li>Zephyrus, law season, a temperate season with many festivals</li>
+<li>Boreas, monsoon season, a time of potent storms and torrential rain</li>
+<li>Eurus, chaos season, the most powerful season of vibrant growth and unprecedented change</li>
+<li>Notus, dry season, a dangerous time of oppressive heat and war</li>
+</ul>
+<p>For those born in the year 301 or after their birth occurred during a long year. This is the result of the Wandering Moon, a sister planet which arrives every 22 years. Each convergence results in an alteration between short years and long years. Long years proceed slower, having more days and an additional season: a cold and cursed time called Winter - the still season.</p>
+<h3 id="class">Class<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#class" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Choose what class your character is.</p>
+<p>The classes are fighting-men, men of many ways, and magic-users. <a href="../../Game-Rules/Classes-and-Character-Creation/Classes/Fighting-Man" class="internal alias" data-slug="Game-Rules/Classes-and-Character-Creation/Classes/Fighting-Man">Fighting-Men</a> are masters at arms, and able to lead with great skill. <a href="../../Game-Rules/Classes-and-Character-Creation/Classes/Man-of-Many-Ways" class="internal alias" data-slug="Game-Rules/Classes-and-Character-Creation/Classes/Man-of-Many-Ways">Men of Many Ways</a> gain specializations in all of their skills, and oft find themselves protected by good fortune. Although any dedicated practitioner can learn some sorcery, <a href="../../Game-Rules/Classes-and-Character-Creation/Classes/Magic-User" class="internal alias" data-slug="Game-Rules/Classes-and-Character-Creation/Classes/Magic-User">Magic-Users</a> have a natural affinity for the arcane. Alternatively you may choose two half-classes, as detailed under the rules for <a href="../../Game-Rules/Classes-and-Character-Creation/Classes/Specialists/Dual-Class" class="internal alias" data-slug="Game-Rules/Classes-and-Character-Creation/Classes/Specialists/Dual-Class">Dual-Class</a> characters.</p>
+<p>For your class write down</p>
+<ul>
+<li>Starting HP, this is the maximum value on the HD + Constitution modifier</li>
+<li>Saving throws, Evasion includes Dexterity modifier, mental includes Wisdom modifier, physical includes Constitution modifier</li>
+<li>Special abilities for your class</li>
+</ul>
+<p>Additionally your characters have had some time as adventurers to gain a variety of skills. For the specific classes you gain. Alternatively you may choose a preset <a href="../../Game-Rules/Classes-and-Character-Creation/Class-Kits" class="internal alias" data-slug="Game-Rules/Classes-and-Character-Creation/Class-Kits">Class Kits</a> for a character with more specific training.</p>
+<h4 id="fighting-man">Fighting-Man<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#fighting-man" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>Distribute 18 additional training points (maximum of an additional 5 in any single skill)</li>
+<li>Heroic expertise in Martial Training</li>
+</ul>
+<h4 id="men-of-many-ways">Men of Many Ways<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#men-of-many-ways" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>Distribute 24 additional training points (maximum of any additional 6 in any single skill, ignore bonus from Quick Study during character creation - this is factored in as the additional training points)</li>
+<li>Heroic expertise in any General Expertise</li>
+</ul>
+<h4 id="magic-user">Magic-User<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#magic-user" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<ul>
+<li>Distribute 4 additional training points to any General or Martial skills</li>
+<li>Distribute 12 training points among magical skills</li>
+<li>Distribute 3 points among your elemental attunements: Air, Earth, Fire, Water, Celestial (maximum 2 in any single element)</li>
+</ul>
+<p>Begin with some knowledge of the Curriculum, a set of spells developed by the legendary Ecnavian wizards. For each magical skill you have and each element you have learned the corresponding spell. Write these down under mastered spells.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th></th><th>Air</th><th>Earth</th><th>Fire</th><th>Water</th><th>Celestial</th></tr></thead><tbody><tr><td>Adjuration</td><td>Minor Lightning</td><td>Lock</td><td>Javelin of Flame</td><td>Memory Lapse</td><td>Word of Abnegation</td></tr><tr><td>Alteration</td><td>Aura of Majesty</td><td>Peerless Window</td><td>The Second Ocular Castigation</td><td>Water Walking</td><td>Minor Luck</td></tr><tr><td>Conjuration</td><td>Keen-Eyed Ranger</td><td>Beckon the Sturdy Portal</td><td>Minor Fire Spirit</td><td>Call Wave</td><td>Floating Disc</td></tr><tr><td>Enchantment</td><td>Pack of Lightness</td><td>Stoneplate</td><td>Flameblade</td><td>Stabilize the Alchemist’s Efforts</td><td>Aligning the Wizard’s Sanctum</td></tr><tr><td>Thaumaturgy</td><td>Ward Against Words</td><td>Speak with Stone</td><td>Smokeless Flame</td><td>Duel of Wits</td><td>Carrying the Counterfactual</td></tr></tbody></table></div>
+<h3 id="blessings-of-chaos">Blessings of Chaos<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#blessings-of-chaos" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<h3 id="finalize-character-sheet">Finalize Character Sheet<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#finalize-character-sheet" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Record derived values for your character, these are expanded upon in <a href="../../Game-Rules/System-Overview" class="internal alias" data-slug="Game-Rules/System-Overview">System Overview</a>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Derived Characteristic</th><th>Formula</th></tr></thead><tbody><tr><td>Armor Class (AC)</td><td>Brawl skill rank + Dexterity modifier + bonuses from worn armor</td></tr><tr><td>Spiritual Armor Class (sAC)</td><td>Concentration skill rank + Wisdom modifier</td></tr><tr><td>Physical Saving Throw</td><td>Class bonus + Constitution modifier</td></tr><tr><td>Evasion Saving Throw</td><td>Class bonus + Dexterity modifier</td></tr><tr><td>Mental Saving Throw</td><td>Class bonus + Wisdom modifier</td></tr><tr><td>Melee Attack Bonus (per weapon)</td><td>Weapon skill rank + Strength modifier</td></tr><tr><td>Ranged Attack Bonus (per weapon)</td><td>Weapon skill rank + Dexterity modifier</td></tr><tr><td>Hit Threshold (per weapon)</td><td>11 - Attack Bonus</td></tr><tr><td>Soul Points (SP)</td><td>Intelligence characteristic + sum of all elemental Attunements</td></tr><tr><td>Command Limit</td><td>Class Leadership base + Lead skill rank + Charisma modifier</td></tr><tr><td>Carrying Limit</td><td>Strength characteristic</td></tr><tr><td>Readied Item Limit</td><td>Half, rounded up, of Strength characteristic</td></tr><tr><td>Preservation Limit</td><td>Alchemy skill rank + Intelligence modifier</td></tr></tbody></table></div>
+<p>Choose additional languages</p>
+<ul>
+<li>Psuedophidian is a pidgin language known to most traveled peoples of the Shrinelands</li>
+<li>Literate characters should consider High Ophidian, Atlantean, Old Thuvian</li>
+</ul>
+<h3 id="prepare-for-adventure">Prepare for Adventure<a aria-hidden="true" tabindex="-1" data-no-popover="true" href="#prepare-for-adventure" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Characters start with the fruits of their professions. Each skill in which you have at least one rank grants additional equipment. Your <a href="../../Game-Rules/Adventuring/Adventure#a2361e" class="internal alias" data-slug="Game-Rules/Adventuring/Adventure">carrying capacity</a> is half your strength score for items at hand, plus up to a number of items equal to your full strength score carried in a pack. Additional items may need to be stored at home. Details on items are under <a href="../../Game-Rules/Equipment" class="internal alias" data-slug="Game-Rules/Equipment">Equipment</a></p>
+<p>Your character has a residence near where they are born. This is unlikely to be freely owned property unless they are of exceptionally high status. Most are shared with family, or could be a friendly flophouse with sympathetic owner.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Skill</th><th>Starting Equipment</th></tr></thead><tbody><tr><td>Alchemy</td><td>Alchemist kit, 3 firebombs, 3 smoke bombs</td></tr><tr><td>Athletics</td><td>50 coin in tournament winnings</td></tr><tr><td>Artisanry</td><td>20 coin, set of tools for each specialization</td></tr><tr><td>Beastmastery</td><td>Pack ox, 30 bundles of grain, 1 scorpion bomb</td></tr><tr><td>Bushcraft</td><td>50 ft. rope, animal snare</td></tr><tr><td>Concentration</td><td>-</td></tr><tr><td>Devicecraft</td><td>20 coin, thief tools</td></tr><tr><td>Diplomacy</td><td>Writs of introduction</td></tr><tr><td>Divination</td><td>Diviner’s kit, 1 <em><a href="../../Shrinelands/Objects/Tablets/Prophecy-Scroll" class="internal alias" data-slug="Shrinelands/Objects/Tablets/Prophecy-Scroll">Prophecy Scroll</a></em></td></tr><tr><td>Heal</td><td>Medical kit</td></tr><tr><td>Investigation</td><td>10 coin</td></tr><tr><td>Language</td><td>Scribe’s tools, cipher tube</td></tr><tr><td>Lead</td><td>Banner with personal sigil</td></tr><tr><td>Lore</td><td><em>History of the Fourth Age</em> book</td></tr><tr><td>Navigation</td><td>Treasure map, astrolabe</td></tr><tr><td>Perform</td><td>50 coin, musical instrument</td></tr><tr><td>Sail</td><td>Small sailboat 100 coin in debt</td></tr><tr><td>Seneschal</td><td>300 coin account with Tithonian death-merchants</td></tr><tr><td>Stealth</td><td>Camouflage (dark clothing or ghillie suit)</td></tr><tr><td>Trade</td><td>200 coin</td></tr><tr><td>-</td><td>-</td></tr><tr><td>Archery</td><td>Shortbow, quiver, 5 belladonna poison doses</td></tr><tr><td>Brawl</td><td>50 coin in tournament winnings</td></tr><tr><td>Exotic Weapon</td><td>1 exotic weapon</td></tr><tr><td>Great Weapon</td><td>1 great weapon from cultural background</td></tr><tr><td>Hand Weapon</td><td>1 hand weapon from cultural background, shield</td></tr><tr><td>Polearm</td><td>1 polearm from cultural background</td></tr><tr><td>-</td><td>-</td></tr><tr><td>Adjuration</td><td></td></tr><tr><td>Alteration</td><td></td></tr><tr><td>Conjuration</td><td></td></tr><tr><td>Enchantment</td><td>2 each of air, water, fire, earth, and celestial essence</td></tr><tr><td>Thaumaturgy</td><td></td></tr></tbody></table></div></article><div class="footer-component"><div><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:false,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:false,&quot;removeTags&quot;:[]}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div></div></div></div></body><script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script type="application/javascript">function c(){let t=this.parentElement;t.classList.toggle("is-collapsed");let l=t.classList.contains("is-collapsed")?this.scrollHeight:t.scrollHeight;t.style.maxHeight=l+"px";let o=t,e=t.parentElement;for(;e;){if(!e.classList.contains("callout"))return;let n=e.classList.contains("is-collapsed")?e.scrollHeight:e.scrollHeight+o.scrollHeight;e.style.maxHeight=n+"px",o=e,e=e.parentElement}}function i(){let t=document.getElementsByClassName("callout is-collapsible");for(let s of t){let l=s.firstElementChild;if(l){l.addEventListener("click",c),window.addCleanup(()=>l.removeEventListener("click",c));let e=s.classList.contains("is-collapsed")?l.scrollHeight:s.scrollHeight;s.style.maxHeight=e+"px"}}}document.addEventListener("nav",i);window.addEventListener("resize",i);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script type="application/javascript">
+        const socket = new WebSocket('ws://localhost:3001')
+        socket.addEventListener('message', () => document.location.reload())
+      </script><script src="../../postscript.js" type="module"></script></html>

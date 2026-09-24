@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"5170f240475ba0bf","type":"text","text":"Seasonal Activities","x":-180,"y":-120,"width":250,"height":60},
+		{"id":"ebdeba17cf78bf55","type":"text","text":"Resources","x":-380,"y":80,"width":250,"height":60},
+		{"id":"36c21ff40e53ea4e","type":"text","text":"Magic","x":100,"y":-280,"width":250,"height":60},
+		{"id":"9b6af38f2d653ea7","type":"text","text":"Travel and Exploration","x":-180,"y":280,"width":250,"height":60},
+		{"id":"5505a2ccfd0c2a46","type":"text","text":"Tower Management","x":-505,"y":-250,"width":250,"height":60},
+		{"id":"053c413bfe3edc49","type":"text","text":"Hexmap","x":120,"y":110,"width":250,"height":60},
+		{"id":"9947d44a1ea0c844","type":"text","text":"Factions","x":420,"y":-60,"width":250,"height":60},
+		{"id":"14fc8e7e6c023e2e","x":100,"y":-420,"width":250,"height":60,"type":"text","text":"Knowledge"},
+		{"id":"e68259bb094a37e1","type":"text","text":"Bestiary","x":480,"y":-520,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"6fb4ad03db07b665","fromNode":"5170f240475ba0bf","fromSide":"bottom","toNode":"ebdeba17cf78bf55","toSide":"top","label":"Spend"},
+		{"id":"386177eb1c4186b0","fromNode":"9b6af38f2d653ea7","fromSide":"top","toNode":"ebdeba17cf78bf55","toSide":"bottom","label":"Locate"},
+		{"id":"452c0b3b818cc646","fromNode":"5170f240475ba0bf","fromSide":"top","toNode":"5505a2ccfd0c2a46","toSide":"bottom","label":"Require"},
+		{"id":"c6653b802418aafb","fromNode":"5170f240475ba0bf","fromSide":"top","toNode":"36c21ff40e53ea4e","toSide":"bottom","label":"Develop"},
+		{"id":"3bf881bc4f1f7f39","fromNode":"9b6af38f2d653ea7","fromSide":"right","toNode":"053c413bfe3edc49","toSide":"bottom","label":"Travel On"},
+		{"id":"a73de79557b11b06","fromNode":"9947d44a1ea0c844","fromSide":"bottom","toNode":"053c413bfe3edc49","toSide":"right","label":"Occupy"},
+		{"id":"7594d6bafc99dd02","fromNode":"e68259bb094a37e1","fromSide":"bottom","toNode":"9947d44a1ea0c844","toSide":"top","label":"Form"},
+		{"id":"b8dbcc73a5ccd444","fromNode":"e68259bb094a37e1","fromSide":"left","toNode":"5505a2ccfd0c2a46","toSide":"top","label":"Works For"},
+		{"id":"d88a9106a5d3c4b2","fromNode":"9947d44a1ea0c844","fromSide":"left","toNode":"5170f240475ba0bf","toSide":"right","label":"Act During"},
+		{"id":"57a2d1e5aea9297c","fromNode":"14fc8e7e6c023e2e","fromSide":"bottom","toNode":"36c21ff40e53ea4e","toSide":"top","label":"Learn"},
+		{"id":"389d3a55e3f23360","fromNode":"14fc8e7e6c023e2e","fromSide":"right","toNode":"e68259bb094a37e1","toSide":"bottom","label":"Know Of"}
+	]
+}

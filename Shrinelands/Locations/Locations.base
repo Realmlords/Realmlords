@@ -1,0 +1,15 @@
+filters:
+  and:
+    - file.tags.contains("location")
+    - '!file.inFolder("Publishing/Templates")'
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - hexX
+      - hexY
+      - locationTags
+    sort:
+      - property: hexX
+        direction: ASC

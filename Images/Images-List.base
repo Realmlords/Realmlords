@@ -1,0 +1,6 @@
+filters:
+  and:
+    - file.ext.containsAny("jpg", "png")
+views:
+  - type: table
+    name: Table
