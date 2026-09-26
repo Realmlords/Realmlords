@@ -6,23 +6,11 @@
       <description>Last 10 notes on REALMLORDS</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Lankh-Trained Alchemist</title>
-    <link>https://realmlords.dev/Game-Rules/Classes-and-Character-Creation/Expertise/General/Lankh-Trained-Alchemist</link>
-    <guid>https://realmlords.dev/Game-Rules/Classes-and-Character-Creation/Expertise/General/Lankh-Trained-Alchemist</guid>
-    <description>Trained in the style of alchemy familiar to Mortania. Initiate: May make royal glue, smoke bombs, firebombs, bitebane, and black ichor from memory, without needing to consume a formula.</description>
-    <pubDate>Thu, 10 Sep 2026 03:53:25 GMT</pubDate>
-  </item><item>
     <title>Character Creation</title>
     <link>https://realmlords.dev/Game-Rules/Classes-and-Character-Creation/Character-Creation</link>
     <guid>https://realmlords.dev/Game-Rules/Classes-and-Character-Creation/Character-Creation</guid>
     <description>Creating a character requires generating the basic abilities of your adventurer, understanding their cultural and upbringings, choosing a class, defining their allies, and preparing for adventure.</description>
     <pubDate>Sat, 27 Jun 2026 05:51:14 GMT</pubDate>
-  </item><item>
-    <title>Armsmaster</title>
-    <link>https://realmlords.dev/Game-Rules/Classes-and-Character-Creation/Expertise/Martial/Armsmaster</link>
-    <guid>https://realmlords.dev/Game-Rules/Classes-and-Character-Creation/Expertise/Martial/Armsmaster</guid>
-    <description>You are exceptionally deadly in armed combat. Add your skill rank to damage with melee weapons.</description>
-    <pubDate>Sun, 26 Apr 2026 00:03:16 GMT</pubDate>
   </item><item>
     <title>Secrets of Xanthe</title>
     <link>https://realmlords.dev/Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-Xanthe</link>
@@ -30,9 +18,9 @@
     <description>Most peculiar is that they are guides by the wisdom of “elders.” Late in their lives Xanthe fall into a terrible comatose fever, often resulting in death.</description>
     <pubDate>Thu, 23 Apr 2026 04:12:34 GMT</pubDate>
   </item><item>
-    <title>Secrets of the City of Miners</title>
-    <link>https://realmlords.dev/Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-the-City-of-Miners</link>
-    <guid>https://realmlords.dev/Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-the-City-of-Miners</guid>
+    <title>Secrets of the City of Steel</title>
+    <link>https://realmlords.dev/Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-the-City-of-Steel</link>
+    <guid>https://realmlords.dev/Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-the-City-of-Steel</guid>
     <description> seek the grave of the Lawgiver .</description>
     <pubDate>Thu, 23 Apr 2026 04:06:22 GMT</pubDate>
   </item><item>
@@ -48,16 +36,10 @@
     <description>The city of New Lankh did not exist until twenty years ago. During the last conjunction of the Wandering Moon the community appeared in its current location.</description>
     <pubDate>Thu, 23 Apr 2026 03:28:22 GMT</pubDate>
   </item><item>
-    <title>Secrets of Hapolis</title>
-    <link>https://realmlords.dev/Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-Hapolis</link>
-    <guid>https://realmlords.dev/Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-Hapolis</guid>
-    <description></description>
-    <pubDate>Thu, 23 Apr 2026 00:49:23 GMT</pubDate>
-  </item><item>
     <title>Secrets of the Beast Kingdoms</title>
     <link>https://realmlords.dev/Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-the-Beast-Kingdoms</link>
     <guid>https://realmlords.dev/Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-the-Beast-Kingdoms</guid>
-    <description>Chimericon &lt;11,28&gt; is the largest of the kingdoms of the Beast Kingdoms, however half a dozen other princes rule outlying holdings that range from small settlements to moderate castles.</description>
+    <description>Chimericon is the largest of the kingdoms of the Beast Kingdoms, however half a dozen other princes rule outlying holdings that range from small settlements to moderate castles.</description>
     <pubDate>Wed, 22 Apr 2026 23:14:06 GMT</pubDate>
   </item><item>
     <title>Asterion</title>
@@ -65,6 +47,24 @@
     <guid>https://realmlords.dev/Shrinelands/Ephemeral-Realm/Gods/Minor/Asterion</guid>
     <description>Holy Days High Holy Days 12th of Law Season: Triumph of Asterion - during this day a great feast is held along with the largest of the Labyrinth Games.</description>
     <pubDate>Fri, 17 Apr 2026 04:29:02 GMT</pubDate>
+  </item><item>
+    <title>Chaos Season</title>
+    <link>https://realmlords.dev/Shrinelands/Time/Seasons/Chaos-Season</link>
+    <guid>https://realmlords.dev/Shrinelands/Time/Seasons/Chaos-Season</guid>
+    <description>Chaos season is home to intermittent changestorms, odd whirlwinds of magic that sweep across the land. From these descend bolts of change, twisting trees and bringing life to whatever is struck across the land.</description>
+    <pubDate>Sat, 11 Apr 2026 03:57:29 GMT</pubDate>
+  </item><item>
+    <title>Divination Day</title>
+    <link>https://realmlords.dev/Shrinelands/Time/Times-of-Note/Divination-Day</link>
+    <guid>https://realmlords.dev/Shrinelands/Time/Times-of-Note/Divination-Day</guid>
+    <description>The first day of Law season and the first day of the year. All eyes turn westward to see if ash spews from the mountains of Tharsis. A clear day heralds a good year, but the dread ash is considered a poor omen.</description>
+    <pubDate>Sat, 11 Apr 2026 01:17:55 GMT</pubDate>
+  </item><item>
+    <title>Kindling the Soul</title>
+    <link>https://realmlords.dev/Game-Rules/Magic/Spells/Adjuration/Fire/Kindling-the-Soul</link>
+    <guid>https://realmlords.dev/Game-Rules/Magic/Spells/Adjuration/Fire/Kindling-the-Soul</guid>
+    <description>Each Kindling of the Soul is an expression of inner, personal power, and must be tailored by the caster to their unique nature. This process of personal reflection requires at least a season; during which choose one skill, one saving throw, and one ability score.</description>
+    <pubDate>Mon, 23 Mar 2026 02:29:01 GMT</pubDate>
   </item>
     </channel>
   </rss>
