@@ -2,9 +2,6 @@
     <loc>https://realmlords.dev/Campaign/Campaign-Premise</loc>
     <lastmod>2025-09-01T20:26:23.657Z</lastmod>
   </url><url>
-    <loc>https://realmlords.dev/Game-Rules/Adventuring/Adventure</loc>
-    <lastmod>2025-09-06T23:16:55.832Z</lastmod>
-  </url><url>
     <loc>https://realmlords.dev/Game-Rules/Classes-and-Character-Creation/Character-Creation</loc>
     <lastmod>2026-06-27T05:51:14.681Z</lastmod>
   </url><url>
@@ -35,8 +32,8 @@
     <loc>https://realmlords.dev/Game-Rules/Classes-and-Character-Creation/Cultural-Background/Secrets-of-the-City-of-Steel</loc>
     <lastmod>2026-04-23T04:06:22.166Z</lastmod>
   </url><url>
-    <loc>https://realmlords.dev/Game-Rules/Classes-and-Character-Creation/Expertise/Traits/Animal-Aspect</loc>
-    <lastmod>2026-03-07T23:48:22.252Z</lastmod>
+    <loc>https://realmlords.dev/Game-Rules/Combat</loc>
+    <lastmod>2026-09-27T07:17:52.786Z</lastmod>
   </url><url>
     <loc>https://realmlords.dev/Game-Rules/Equipment</loc>
     <lastmod>2025-09-04T04:28:57.387Z</lastmod>
@@ -50,6 +47,18 @@
     <loc>https://realmlords.dev/Game-Rules/Magic/Spells/Enchantment/Stabilize-the-Alchemist's-Efforts</loc>
     <lastmod>2025-08-29T07:35:01.501Z</lastmod>
   </url><url>
+    <loc>https://realmlords.dev/Game-Rules/Mysteries/General/Field-Alchemist</loc>
+    <lastmod>2026-03-14T17:29:33.611Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/Game-Rules/Mysteries/Magical/Obduration-to-the-Mathematics-of-Vance</loc>
+    <lastmod>2026-01-12T03:12:53.894Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/Game-Rules/Mysteries/Mysteries</loc>
+    <lastmod>2025-09-01T07:25:26.095Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/Game-Rules/Mysteries/Unique/Priest</loc>
+    <lastmod>2026-03-01T22:05:56.207Z</lastmod>
+  </url><url>
     <loc>https://realmlords.dev/Game-Rules/Season-Phase/Experience-and-Levels</loc>
     <lastmod>2025-09-01T05:41:06.243Z</lastmod>
   </url><url>
@@ -61,6 +70,9 @@
   </url><url>
     <loc>https://realmlords.dev/Game-Rules/System-Overview</loc>
     <lastmod>2025-09-06T23:29:50.901Z</lastmod>
+  </url><url>
+    <loc>https://realmlords.dev/Game-Rules/Traits/Animal-Aspect</loc>
+    <lastmod>2026-03-07T23:48:22.252Z</lastmod>
   </url><url>
     <loc>https://realmlords.dev/Shrinelands/Ephemeral-Realm/Gods/Minor/Asterion</loc>
     <lastmod>2026-04-17T04:29:02.170Z</lastmod>
